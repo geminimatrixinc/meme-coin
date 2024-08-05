@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Comic-Sans;
+    src: url(fonts/ComicSansMS3.ttf);
+}
+
+@font-face {
+    font-family: Comic-Sans-Bold;
+    src: url(fonts/comicsansbold.ttf);
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #A50905;
+    border: 2px solid #DD0707;
+    border-radius: 100px;
+}
+
+body, html {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+*, body, html {
+    box-sizing: border-box;
+    font-family: Comic-Sans;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.btn, h1, h2, h3, h4, h5, h6, span {
+    font-family: Comic-Sans;
+    font-weight: 700;
+}
+
+.page-width {
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 20px;
+}
+
+.page-width-small {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
